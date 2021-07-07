@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* update the header to align in the center*/
+h1 {
+  text-align:center;
+}
+
+/* center the image */
+figure img{
+  display:block;
+  margin:auto;
+}
+
+figure figcaption{
+  text-align:center;
+  font-size:smaller;
+}
+
+/* padding to the navbar and change the background color*/
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding-left:10px;
+  padding-right:10px;
+  background-color: lightgray;
+}
+
+figcaption {
+  text-align: center;
+}
+
+#featured-property p {
+  width:800px;
+  text-align: center;
+  margin:auto;
+}
+
+#details div {
+  display:block;
+  float: left;
+  background-color:red;
+  text-align: center;
+  width: 25%;
+}
